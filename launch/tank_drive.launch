@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="joy" type="joy_node" name="joy_node">
+  </node>
+
+  <node name="tank_drive" pkg="rowbot_manual" type="tank_drive.py" output="screen">
+  </node>
+</launch>
